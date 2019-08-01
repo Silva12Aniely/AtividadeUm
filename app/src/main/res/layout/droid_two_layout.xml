@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_droid"
     android:orientation="vertical"
-    tools:context=".Droid_Activity">
+    tools:context=".DroidTwo">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,10 +15,11 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="220dp"
-            android:layout_height="230dp"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
             android:layout_gravity="center"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="15dp"
             android:background="@drawable/ic_android" />
 
         <EditText
@@ -29,53 +30,63 @@
             android:textColorHint="#FFD3D3D3"
             android:textSize="25sp"
             android:background="@drawable/borderbutton"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="15dp"/>
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
-            android:inputType="textPassword"
-            android:padding="10dp"
-            android:textColorHint="#D3D3D3"
-            android:textSize="25sp"
-            android:background="@drawable/borderbutton"/>
-        
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Remember me"
-            android:textColor="#FFF"
-            android:checked="true"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"/>
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/borderbutton"
+            android:hint="Email"
+            android:padding="10dp"
+            android:textColorHint="#FFD3D3D3"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/borderbutton"
+            android:hint="Password"
+            android:padding="10dp"
+            android:textColorHint="#FFD3D3D3"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/borderbutton"
+            android:hint="Confirm Password"
+            android:padding="10dp"
+            android:textColorHint="#FFD3D3D3"
+            android:textSize="25sp" />
 
         <Button
             android:onClick="abrirJanela"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Log In"
+            android:text="Sign Up"
             android:background="@drawable/button"
             android:textSize="20sp"
             android:textColor="#FFEF687A"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginTop="8dp"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:background="@drawable/buttwo"
-            android:text="Sign Up"
+            android:text="Log In"
             android:textColor="#FFF"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textAllCaps="false"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textColor="#FFF"
-            android:text="Forgot your password?"
-            android:textSize="15dp"
-            android:layout_marginTop="8dp"/>
 
     </LinearLayout>
 </LinearLayout>
