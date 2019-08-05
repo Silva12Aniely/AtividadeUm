@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AtividadeUm</string>
+    <string name="enter_user_number">Enter User Number</string>
 </resources>
