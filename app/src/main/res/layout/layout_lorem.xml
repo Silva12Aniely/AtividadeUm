@@ -74,15 +74,6 @@
             android:background="#2BA865"
             android:text="Login"
             android:textColor="#fff" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Not registered?"
-            android:gravity="center_horizontal"
-            android:layout_marginTop="50dp"
-            android:textColor="#fff"/>
-
     </LinearLayout>
 
     <LinearLayout
@@ -101,5 +92,20 @@
             android:text="Logo"
             android:textColor="#fff"
             android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:text="Not registered?"
+            android:textColor="#fff"
+            android:textSize="20sp" />
     </LinearLayout>
 </LinearLayout>
