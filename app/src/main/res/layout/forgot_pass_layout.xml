@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFF"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     tools:context=".ForgotPass">
 
     <LinearLayout
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top"
         android:layout_margin="20dp"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="50dp"
