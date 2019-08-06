@@ -9,18 +9,19 @@
     android:orientation="vertical"
     tools:context=".signup_Activity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="15dp"
         android:gravity="center_horizontal"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btnlogin"
             android:layout_width="85dp"
             android:layout_height="wrap_content"
             android:background="#00FFFFFF"
-            android:text="Login"
+            android:text="@string/login"
             android:textAllCaps="false"
             android:textColor="#fff"
             android:textSize="20sp" />
@@ -29,10 +30,9 @@
             android:id="@+id/signup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_toRightOf="@id/btnlogin"
-            android:text="Sign Up"
+            android:layout_marginLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="@string/sign_up_txt"
             android:textColor="#fff"
             android:textSize="30sp" />
 
@@ -40,13 +40,16 @@
             android:id="@+id/btnnext"
             android:layout_width="85dp"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/signup"
             android:background="#00000000"
-            android:text="Next"
+            android:text="@string/next"
             android:textAllCaps="false"
             android:textColor="#fff"
             android:textSize="20sp" />
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    </RelativeLayout>
+    </LinearLayout>
 </LinearLayout>
