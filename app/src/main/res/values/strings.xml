@@ -6,4 +6,12 @@
     <string name="login">Login</string>
     <string name="next">Next</string>
     <string name="sign_up_txt">Sign Up</string>
+    <string name="enter_your_information_and_take_the_photo_everything_is_shared_only_with_your_partner">Enter your information and take the photo. Everything is shared only with your partner.</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="username">Username</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="forgot_pass">Forgot password?</string>
 </resources>
